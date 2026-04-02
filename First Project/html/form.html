@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form in Html</title>
+</head>
+<body>
+ 
+  <form action="/contact-me">
+    <label for="name">Username: </label>
+    <input type="text" id="name" placeholder="name" required><br>
+    <label for="user_password">Password: </label>
+    <input type="password" id="user_password"><br>
+    <label for="Date">Date: </label>
+    <input type="date" id="Date"><br>
+    File: <input type="file"><br>
+    Color: <input type="color"><br>
+    Range: <input type="range"><br>
+    <label for="male">Male: </label>
+    <input type="radio" id ="male" name="Gender" value="male">
+    <label for="female">Female:</label>
+    <input type="radio" id="female" name="Gender" value="female">
+    <label for="other">Other:</label>
+    <input type="radio" id="other" name="Gender" value="other"><br>
+    <label for="hindi">Hindi: </label>
+    <input type="checkbox" id="hindi" name="Languages" value="Hindi"><br>
+    <label for="english">English: </label>
+    <input type="checkbox" id="english" name="Languages" value="English"><br>
+    <label for="bengali">Bengali: </label>
+    <input type="checkbox" id="bengali" name="Languages" value="Bengali"><br>
+    <label for="Other">Other: </label>
+    <input type="checkbox" id="Other" name="Languages" value="Other"><br>
+    <label for="country">Country: </label>
+    <select name="country" id="country">
+      <option value="India">India</option>
+      <option value="USA">Usa</option>
+      <option value="UK">UK</option>
+      <option value="Other">Other</option>
+    </select><br>
+    <textarea rows="4" cols="40">
+      Write Here About Yourself!!!!
+    </textarea><br>
+    <iframe height="300" width="320" src="https://www.wikipedia.org/">Click here to Know more
+
+    </iframe><br>
+    Poke Me: <input type="button" value="poked"><br>
+    Submit: <input type="submit">
+  </form>
+  
+
+  
+</body>
+</html>
