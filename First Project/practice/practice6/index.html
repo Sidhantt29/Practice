@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice 6</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="button">
+    <button id="button1" onclick="cartQuantity = cartQuantity+1;
+    document.querySelector('#cartsummary').innerText = `Your Bag has ${cartQuantity} items`;">Add to Bag</button>
+    <button id="button2" onclick="cartQuantity = cartQuantity-1;
+    document.querySelector('#cartsummary').innerText = `Your Bag has ${cartQuantity} items`;">Move to Wishlist</button>
+    <button id="button3" onclick="cartQuantity = cartQuantity+2;
+    document.querySelector('#cartsummary').innerText = `Your Bag has ${cartQuantity} items`;">Add 1+1 sale item</button>
+  </div>
+  <h1 id="cartsummary"></h1>
+
+  <script>
+    let cartQuantity = 0;
+    document.querySelector('#cartsummary').innerText = `Your Bag has ${cartQuantity} items`;
+  </script>
+</body>
+</html>
