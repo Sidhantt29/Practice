@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+}
+header h1{
+  margin: 10px;
+}
+.button-container{
+  margin: 10px 10px;
+  
+}
+
+.button{
+  height: 70px;
+  margin: 10px;
+  padding: 30px;
+  border: 2px solid black;
+  text-transform: uppercase;
+  background-color: rgb(134, 223, 223);
+}
