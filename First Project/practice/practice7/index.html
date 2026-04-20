@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice7</title>
+  <style>
+    .btn{
+      height:50px;
+      width: 100px;
+
+    }
+    .js-doublesize-btn{
+      height:100px;
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn">Subscribe</button>
+  <script>
+    // let multiply = (num1,num2) => num1*num2;
+    // let buttonElement = document.querySelector('.btn');
+    // buttonElement.addEventListener('click',event =>setTimeout(doubleTheSize,2000))
+
+    // function doubleTheSize(){
+    //   let buttonElement = document.querySelector('.btn');
+    //   buttonElement.classList.add('js-doublesize-btn');
+
+
+    // }
+    let arr =[1,2,3,4,5]
+    let sum =0;
+    arr.forEach(num => sum += num)
+    console.log(sum);
+
+    let square = arr.map(num => num * num);
+    console.log(square);
+
+    let numberCheck = arr.filter(num => num % 2 ==1)
+    console.log(numberCheck);
+
+
+  </script>
+</body>
+</html>
